@@ -1,0 +1,32 @@
+{
+  "name": "parcel2",
+  "version": "0.0.1",
+  "description": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "scripts": {
+    "dev": "rm -rf dist & parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "andre",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.12.0",
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/react": "^18.2.67",
+    "@types/react-dom": "^18.2.22",
+    "parcel": "^2.12.0",
+    "typescript": ">=3.0.0"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "engines": {
+    "node": ">= 12"
+  },
+  "outputFormat": "commonjs",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
